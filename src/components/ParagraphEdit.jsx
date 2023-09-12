@@ -23,6 +23,7 @@ export default function ParagraphEdit({ children, editMode = false }) {
       <>
         <p>{children}</p>
         <button onClick={handleEditText}>Edit Function (Conventional)</button>
+        <button onClick={() => { console.log("TODO: edit text (arrow function)") }}>Edit Arrow Function</button>
       </>
     )
   }
