@@ -8,7 +8,7 @@ import { useCallback, useMemo } from "react";
 const ParticlesComponent = (props) => {
     // using useMemo is not mandatory, but it's recommended since this value can be memoized if static
     const options = useMemo(() => {
-        // this actually isnt working... 
+        // this actually isnt working...
         // using an empty options object will load the default options, which are static particles with no background and 3px radius, opacity 100%, white color
         // all options can be found here: https://particles.js.org/docs/interfaces/Options_Interfaces_IOptions.IOptions.html
         return {
@@ -32,7 +32,7 @@ const ParticlesComponent = (props) => {
                 },
                 modes: {
                     push: {
-                        quantity: 10, // number of particles to add on click
+                        quantity: 5, // number of particles to add on click
                     },
                     repulse: {
                         distance: 100, // distance of the particles from the cursor
