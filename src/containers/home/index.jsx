@@ -15,28 +15,26 @@ const Home = () => {
 
         <section id="home" className="home">
             <div className="home_text-wrapper">
-                <h1>
-                    Hello, I'm Stephan
-                    <br />
-                    Data Science Student
-                </h1>
+                <div className="text-container">
+                    <h1>Hello, I'm Stephan.<br />Data Science Student</h1>
+                </div>
             </div>
             <Animate
-            play
-            duration={1.5}
-            delay={1}
-            start={{
-                transform : "translateY(40px)"
-            }}
-            end={{
-                transform : "translatex(0px)"
-            }}
+                play
+                duration={1.5}
+                delay={1}
+                start={{
+                    transform: "translateY(40px)"
+                }}
+                end={{
+                    transform: "translatex(0px)"
+                }}
             >
-             <div className="home__contact-me">
-                <button onClick={handleNavigateToContactMePage}>
-                    Hire Me
-                </button>
-            </div>
+                <div className="home__contact-me">
+                    <button onClick={handleNavigateToContactMePage}>
+                        Hire Me
+                    </button>
+                </div>
             </Animate>
         </section>
     )

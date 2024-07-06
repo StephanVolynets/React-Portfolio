@@ -2,12 +2,12 @@
 
 
 .navbar {
-    background-color: var(--yelow-theme-nav-background-color);
+    background-color: var(--yellow-theme-nav-background-color);
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
     position: sticky !important;
     top: 0;  // Define where you want the sticky behavior to start
@@ -25,9 +25,11 @@
         &_logo {
             color: var(--yellow-theme-main-color, yellow);
             cursor: pointer;
+            padding-top: 10px;
         }
 
         &_menu {
+            padding-top: 10px;
             display: flex;
             list-style: none;
             text-align: left;
@@ -69,6 +71,7 @@
     display: none;
 }
 
+
 @media only screen and (max-width :768px) {
     .navbar_container_menu {
         display: flex;
@@ -84,7 +87,7 @@
         transition: all 0.5s ease;
 
         &.active {
-            background: #181818;
+            background: #000000;
             left: 0px;
             opacity: 1;
         }
@@ -94,7 +97,7 @@
             justify-content: space-evenly;
             border-bottom: 1px solid #bec5c8;
             margin: 0px;
-            padding: 25px 0px;
+            padding: 20px 0px;
 
         }
     }

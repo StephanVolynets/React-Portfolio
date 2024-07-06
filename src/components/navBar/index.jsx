@@ -41,7 +41,7 @@ const Navbar = () => {
             <nav className="navbar">
                 <div className="navbar_container">
                     <Link to={'/'} className="navbar_container_logo">
-                        <FaReact size={30} />
+                        <FaReact className="react-icon" size={35} />
                     </Link>
                 </div>
                 {/* Template Literals, throw vars and expressions inside string literals */}

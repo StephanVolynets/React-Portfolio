@@ -9,6 +9,8 @@
     &_text-wrapper{
         display: flex;
         justify-content: center;
+        margin: 0 auto;
+        padding: 0 auto;
 
 
         h1{
@@ -20,7 +22,7 @@
             position: relative;
             overflow: hidden;
             white-space: nowrap;
-            animation: typingEffectAnimation 2.5s steps(30, end);
+            animation: typingEffectAnimation 2.5s steps(30, end) ;
         }
     }
     &__contact-me{

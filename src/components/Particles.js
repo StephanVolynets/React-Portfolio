@@ -13,7 +13,7 @@ const ParticlesComponent = (props) => {
         // all options can be found here: https://particles.js.org/docs/interfaces/Options_Interfaces_IOptions.IOptions.html
         return {
             background: {
-                color: "#000", // this sets a background color for the canvas
+                color: "#000001", // this sets a background color for the canvas
             },
             fullScreen: {
                 enable: true, // enabling this will make the canvas fill the entire screen, it's enabled by default
@@ -41,7 +41,7 @@ const ParticlesComponent = (props) => {
             },
             particles: {
                 number: {
-                    value: 35,  // sets the initial count of particles to 25
+                    value: 50,  // sets the initial count of particles to 25
                 },
                 links: {
                     enable: true, // enabling this will make particles linked together
@@ -55,7 +55,7 @@ const ParticlesComponent = (props) => {
                     value: { min: 0.3, max: 0.7 }, // using a different opacity, to have some semitransparent effects
                 },
                 size: {
-                    value: { min: 1, max: 3 }, // let's randomize the particles size a bit
+                    value: { min: 2, max: 4 }, // let's randomize the particles size a bit
                 },
             },
         };
