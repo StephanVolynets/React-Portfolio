@@ -23,7 +23,7 @@ export default function App() {
     const renderParticleJsInHomePage = location.pathname === '/';
 
     return (
-        <div className="App" style={{ position: "absolute" }}>
+        <div className="App" style={{ position: "relative" }}>
             {/* particles js */}
             {
                 renderParticleJsInHomePage &&

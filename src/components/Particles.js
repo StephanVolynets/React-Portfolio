@@ -41,7 +41,7 @@ const ParticlesComponent = (props) => {
             },
             particles: {
                 number: {
-                    value: 35,  // sets the initial count of particles to 100
+                    value: 35,  // sets the initial count of particles to 25
                 },
                 links: {
                     enable: true, // enabling this will make particles linked together
