@@ -1,6 +1,6 @@
-# Stephans Website
+# Stephans Personal Website
 
-(![Xnip2024-08-26_20-23-39](https://github.com/user-attachments/assets/dc4a8a2f-b74f-4088-b127-0f9ee56e6e5f)
+![Xnip2024-08-26_20-23-39](https://github.com/user-attachments/assets/dc4a8a2f-b74f-4088-b127-0f9ee56e6e5f)
 
 
 This project was bootstrapped with [Create React App]
