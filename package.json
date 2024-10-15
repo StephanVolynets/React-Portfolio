@@ -2,6 +2,7 @@
   "name": "info2310-activity",
   "version": "0.1.0",
   "dependencies": {
+    "@aeternity/aepp-components": "^2.0.15",
     "@react-three/drei": "^9.108.1",
     "@react-three/fiber": "^8.16.8",
     "clsx": "^2.1.1",

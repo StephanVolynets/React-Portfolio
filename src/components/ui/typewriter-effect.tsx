@@ -1,8 +1,9 @@
 "use client";
 import React from 'react';
-import  cn  from "../../utils/cn";
+import { cn } from "../../utils/cn"; // Change this line to use named import
 import { motion, stagger, useAnimate, useInView } from "framer-motion";
 import { useEffect } from "react";
+
 
 export const TypewriterEffect = ({
   words,
