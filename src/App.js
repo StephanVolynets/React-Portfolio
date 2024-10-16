@@ -8,6 +8,9 @@ import Skills from './containers/skills';
 import Resume from './containers/resume';
 import Navbar from './components/navBar';
 import Particles from './components/Particles';
+import TestPage from '../src/containers/testpage'; // New import for TestPage
+import ParallaxParticles from "../src/components/Parallax";
+
 
 export default function App() {
 
@@ -20,8 +23,9 @@ export default function App() {
 
     return (
         <div className="App" style={{ position: "relative" }}>
-            {/* particles js */}
-            <Particles id="tsparticles" />
+            {/* particles import */}
+            {/* <Particles id="tsparticles" /> */}
+            <ParallaxParticles /> 
             {/* ALTERNATIVE PARTICLES */}
             {/* <Particles
                 id="tsparticles"
@@ -110,6 +114,7 @@ export default function App() {
                     <Route path='/skills' element={<Skills />} />
                     <Route path='/portfolio' element={<Portfolio />} />
                     <Route path='/contact' element={<Contact />} />
+                    <Route path='/test' element={<TestPage />} /> {/* New route for TestPage */}
                 </Routes>
             </div>
         </div>

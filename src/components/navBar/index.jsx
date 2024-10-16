@@ -25,7 +25,12 @@ const data = [
     {
         label: 'CONTACT',
         to: '/contact'
+    },
+    {
+        label: 'TEST',
+        to: '/test'
     }
+    
 ]
 
 const Navbar = () => {

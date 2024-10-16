@@ -1,12 +1,12 @@
 import "./styles.scss";
-import ParticlesComponent from "../ParticlesComponent";
+import ParallaxComponent from "../Parallax";
 
 const PageHeaderContent = (props) => {
     const { headerText, icon } = props;
 
     return (
         <div className="wrapper">
-            <ParticlesComponent id="tsparticles-header" />
+            <ParallaxComponent />
             <div className="content">
                 <h2>{headerText}</h2>
                 <span>{icon}</span>

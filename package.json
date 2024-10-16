@@ -5,6 +5,8 @@
     "@aeternity/aepp-components": "^2.0.15",
     "@react-three/drei": "^9.108.1",
     "@react-three/fiber": "^8.16.8",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.5.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.13",
     "mini-svg-data-uri": "^1.4.4",
