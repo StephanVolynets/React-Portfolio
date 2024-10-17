@@ -25,7 +25,7 @@ export default function App() {
         <div className="App" style={{ position: "relative" }}>
             {/* particles import */}
             {/* <Particles id="tsparticles" /> */}
-            <ParallaxParticles /> 
+            <ParallaxParticles particleCount={150} showLinks={true} /> 
             {/* ALTERNATIVE PARTICLES */}
             {/* <Particles
                 id="tsparticles"

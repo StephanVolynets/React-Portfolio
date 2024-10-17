@@ -1,12 +1,13 @@
 import React from "react";
 import { BsInfoCircleFill } from 'react-icons/bs';
 import PageHeaderContent from "../../components/pageHeaderContent";
-// import { div, div } from '@aeternity/aepp-components'; 
+import ParallaxParticles from "../../components/Parallax"; // Import the ParallaxParticles component
 import './styles.scss';
 
 const About = () => {
     return (
         <section id="about" className="about p-8 bg-gray-100 text-gray-800">
+            <ParallaxParticles particleCount={50} showLinks={false} /> {/* Adjusted props for less hectic effect */}
             <div className="about__header">
                 <PageHeaderContent
                     headerText="About Me"
@@ -25,7 +26,7 @@ const About = () => {
                     </ul>
                 </div>
                 <div className="about__right flex-1 flex justify-center items-center">
-
+                    {/* Additional content can be added here */}
                 </div>
             </div>
             <div className="about__details">
